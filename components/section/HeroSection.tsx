@@ -6,7 +6,6 @@ import {Menu} from 'lucide-react';
 import Image from 'next/image';
 import {useState} from 'react';
 import {motion, AnimatePresence} from 'framer-motion';
-import bgImage from '@/public/herobg.png';
 import {ProgressBar} from '../ProgressBar';
 
 interface NavLinkProps {
@@ -144,7 +143,7 @@ const HeroSection: React.FC = () => {
     <div className='min-h-full bg-[#0A2640] relative overflow-hidden pb-16'>
       <div className='absolute top-0 right-0 z-0 hidden md:block'>
         <Image
-          src={bgImage}
+          src='/herobg.png'
           alt='Background Pattern'
           width={789}
           height={777}

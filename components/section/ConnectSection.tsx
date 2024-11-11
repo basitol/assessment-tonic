@@ -11,10 +11,9 @@ export default function ConnectSection() {
     <section className='bg-background py-16'>
       <div className='container px-4 md:px-6 max-w-6xl mx-auto'>
         <div className='space-y-8 md:space-y-12'>
-          {/* Top Image */}
           <div className='relative w-full h-[200px] md:h-[300px] rounded-3xl overflow-hidden'>
             <Image
-              src='/image.png'
+              src='/connect.png'
               alt='Modern office space with industrial design'
               fill
               className='object-cover'
@@ -22,7 +21,6 @@ export default function ConnectSection() {
             />
           </div>
 
-          {/* Content Below */}
           <div className='space-y-6 md:space-y-8 md:flex md:items-center md:gap-20'>
             <h2 className='text-xl md:text-3xl font-normal leading-tight text-center md:text-left'>
               We connect our customers with the best, and help them keep up-and
