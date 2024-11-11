@@ -196,7 +196,7 @@ const HeroSection: React.FC = () => {
         </AnimatePresence>
       </nav>
 
-      <div className='container mx-auto px-4 mt-2 z-20'>
+      <div className='container mx-auto px-4 mt-2 z-20 relative'>
         <div className='grid lg:grid-cols-2 gap-12 items-center'>
           <motion.div
             className='space-y-6'
