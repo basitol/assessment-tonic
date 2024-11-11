@@ -154,7 +154,7 @@ const HeroSection: React.FC = () => {
         <div className='flex items-center justify-between'>
           <div className='flex items-center'>
             <Image
-              src='/logo.svg'
+              src='/boldologo.svg'
               alt='Boldo Logo'
               width={40}
               height={40}
